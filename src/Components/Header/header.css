@@ -135,7 +135,7 @@ header .container .row .header .icon-bar .icon ul li:hover i {
 .header-bottom .container .row .categories {
   width: 20%;
   justify-content: space-between;
-  padding: 15px 10px;
+  padding: 15px;
   background-color: #f1f1f1;
   cursor: pointer;
   position: relative;
@@ -143,7 +143,7 @@ header .container .row .header .icon-bar .icon ul li:hover i {
 .header-bottom .container .row .categories a {
   color: black;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 15px;
 }
 .header-bottom .container .row .categories a i {
@@ -153,21 +153,26 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 50px;
-  padding: 10px;
+  top: 48px;
+  z-index: 1;
 }
 .header-bottom .container .row .categories .drop-down ul {
   background-color: white;
 }
 .header-bottom .container .row .categories .drop-down ul li {
-  padding: 10px;
-  border-bottom: 1px solid #f1f1f1;
+  padding: 15px;
+  border-bottom: 1px solid #eeeeee;
 }
 .header-bottom .container .row .categories .drop-down ul li i {
   padding-right: 10px;
+  transition: all 0.5s;
 }
 .header-bottom .container .row .categories .drop-down ul li a {
   text-transform: capitalize;
+  transition: all 0.5s;
+}
+.header-bottom .container .row .categories .drop-down ul li:hover i, .header-bottom .container .row .categories .drop-down ul li:hover a {
+  color: #336699;
 }
 .header-bottom .container .row .menu {
   width: 50%;
@@ -213,10 +218,15 @@ header .container .row .header .icon-bar .icon ul li:hover i {
 .header-bottom .container .row .order ul li i {
   font-size: 20px;
   padding-right: 10px;
+  transition: all 0.5s;
 }
 .header-bottom .container .row .order ul li span {
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  transition: all 0.5s;
+}
+.header-bottom .container .row .order ul li:hover i, .header-bottom .container .row .order ul li:hover span {
+  color: #336699;
 }/*# sourceMappingURL=header.css.map */

@@ -235,14 +235,22 @@
 }
 
 .slick-next {
-    right: 30px !important;
+    right: 8% !important;
 }
 
 .slick-prev {
-    left: 30px !important;
+    left: 8% !important;
     z-index: 1;
 }
 
 .slick-prev:before, .slick-next:before {
     font-size: 50px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #336699;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
 }

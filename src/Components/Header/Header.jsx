@@ -93,7 +93,7 @@ const Header = () => {
               <span>
                 <i class="fa-solid fa-arrow-right"></i>
               </span>
-              {/* <div className="drop-down">
+              <div className="drop-down">
                 <ul>
                   <li>
                     <i class="fa-solid fa-shirt"></i>
@@ -111,8 +111,32 @@ const Header = () => {
                   <i class="fa-solid fa-couch"></i>
                     <a href="#">furniture</a>
                   </li>
+                  <li>
+                  <i class="fa-solid fa-heart-pulse"></i>
+                    <a href="#">healthy & beauty</a>
+                  </li>
+                  <li>
+                  <i class="fa-solid fa-gift"></i>
+                    <a href="#">gift ideas</a>
+                  </li>
+                  <li>
+                  <i class="fa-solid fa-gamepad"></i>
+                    <a href="#">toy & games</a>
+                  </li>
+                  <li>
+                  <i class="fa-solid fa-utensils"></i>
+                    <a href="#">cooking</a>
+                  </li>
+                  <li>
+                  <i class="fa-solid fa-mobile"></i>
+                    <a href="#">smart phones</a>
+                  </li>
+                  <li>
+                  <i class="fa-solid fa-camera"></i>
+                    <a href="#">camera & photo</a>
+                  </li>
                 </ul>
-              </div> */}
+              </div>
             </div>
             <div className="menu">
               <ul className="flex">
