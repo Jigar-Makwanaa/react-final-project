@@ -1,0 +1,204 @@
+.main-slide-1 {
+  background-image: url("../../../public/img/slide-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+}
+.main-slide-1 .container .slide {
+  justify-content: end;
+  padding: 50px 0px 30px;
+  align-items: center;
+}
+.main-slide-1 .container .slide .content h4 {
+  font-size: 38px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 300;
+  text-align: end;
+}
+.main-slide-1 .container .slide .content h4 span {
+  border-bottom: 3px solid #f77c29;
+}
+.main-slide-1 .container .slide .content h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 900;
+  padding: 10px 0px;
+}
+.main-slide-1 .container .slide .content h5 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 300;
+  text-align: end;
+}
+.main-slide-1 .container .slide .content h5 span {
+  color: #f77c29;
+  font-weight: 600;
+}
+.main-slide-1 .container .slide .content .btn {
+  justify-content: end;
+  padding-top: 30px;
+}
+.main-slide-1 .container .slide .content .btn a {
+  padding: 18px 40px;
+  border: 2px solid #333;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.main-slide-1 .container .slide .content .btn a i {
+  padding-left: 5px;
+  transition: all 0.5s;
+  color: #333;
+}
+.main-slide-1 .container .slide .content .btn a:hover {
+  background-color: #333;
+  color: white;
+}
+.main-slide-1 .container .slide .content .btn a:hover i {
+  transform: rotate(45deg);
+  color: white;
+}
+
+.main-slide-2 {
+  background-image: url("../../../public/img/slide-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+}
+.main-slide-2 .container .slide {
+  justify-content: end;
+  align-items: center;
+  padding: 50px 0px 30px;
+}
+.main-slide-2 .container .slide .image img {
+  width: 339px;
+}
+.main-slide-2 .container .slide .content h4 {
+  font-size: 38px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 300;
+}
+.main-slide-2 .container .slide .content h4 span {
+  color: #f77c29;
+}
+.main-slide-2 .container .slide .content h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 900;
+  padding: 10px 0px;
+}
+.main-slide-2 .container .slide .content h5 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 300;
+}
+.main-slide-2 .container .slide .content .btn {
+  padding-top: 30px;
+}
+.main-slide-2 .container .slide .content .btn a {
+  padding: 18px 40px;
+  border: 2px solid #333;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.main-slide-2 .container .slide .content .btn a i {
+  padding-left: 5px;
+  transition: all 0.5s;
+  color: #333;
+}
+.main-slide-2 .container .slide .content .btn a:hover {
+  background-color: #333;
+  color: white;
+}
+.main-slide-2 .container .slide .content .btn a:hover i {
+  transform: rotate(45deg);
+  color: white;
+}
+
+.main-slide-3 {
+  background-image: url("../../../public/img/slide-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+}
+.main-slide-3 .container .slide {
+  justify-content: end;
+  padding: 50px 0px 30px;
+  align-items: center;
+}
+.main-slide-3 .container .slide .content {
+  width: 35%;
+}
+.main-slide-3 .container .slide .content h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: 300;
+  text-align: end;
+}
+.main-slide-3 .container .slide .content h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 300;
+  padding: 10px 0px;
+  text-align: end;
+}
+.main-slide-3 .container .slide .content h5 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 900;
+  text-align: end;
+}
+.main-slide-3 .container .slide .content h5 span {
+  color: #f77c29;
+  font-weight: 900;
+}
+.main-slide-3 .container .slide .content .btn {
+  justify-content: end;
+  padding-top: 30px;
+}
+.main-slide-3 .container .slide .content .btn a {
+  padding: 18px 40px;
+  border: 2px solid #333;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.main-slide-3 .container .slide .content .btn a i {
+  padding-left: 5px;
+  transition: all 0.5s;
+  color: #333;
+}
+.main-slide-3 .container .slide .content .btn a:hover {
+  background-color: #333;
+  color: white;
+}
+.main-slide-3 .container .slide .content .btn a:hover i {
+  transform: rotate(45deg);
+  color: white;
+}
+
+.slick-next {
+  right: 30px !important;
+}
+
+.slick-prev {
+  left: 30px !important;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 50px !important;
+}/*# sourceMappingURL=carousel.css.map */

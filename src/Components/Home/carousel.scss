@@ -1,0 +1,248 @@
+.main-slide-1 {
+    background-image: url("../../../public/img/slide-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 500px;
+
+    .container {
+        .slide {
+            justify-content: end;
+            padding: 50px 0px 30px ; 
+            align-items: center;  
+
+            .content {
+                h4 {
+                    font-size: 38px;
+                    text-transform: capitalize;
+                    color: #666;
+                    font-weight: 300;
+                    text-align: end;
+
+                    span {
+                        border-bottom: 3px solid #f77c29;
+                    }
+                }
+
+                h2 {
+                    font-size: 50px;
+                    text-transform: uppercase;
+                    color: #333;
+                    font-weight: 900;
+                    padding: 10px 0px;
+                }
+
+                h5 {
+                    font-size: 24px;
+                    text-transform: capitalize;
+                    color: #666;
+                    font-weight: 300;
+                    text-align: end;
+
+                    span {
+                        color: #f77c29;
+                        font-weight: 600;
+                    }
+                }
+
+                .btn {
+                    justify-content: end;
+                    padding-top: 30px;
+
+                    a {
+                        padding: 18px 40px;
+                        border: 2px solid #333;
+                        color: #333;
+                        font-weight: 600;
+                        transition: all 0.5s;
+
+                        i {
+                            padding-left: 5px;
+                            transition: all 0.5s;
+                            color: #333;
+                        }
+
+                        &:hover {
+                            background-color: #333;
+                            color: white;
+
+                            i {
+                                transform: rotate(45deg);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-slide-2 {
+    background-image: url("../../../public/img/slide-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 500px;
+
+    .container {
+        .slide {
+            justify-content: end;
+            align-items: center;
+            padding: 50px 0px 30px ;
+
+            .image {
+                img {
+                    width: 339px;
+                }
+            }
+
+            .content {
+                h4 {
+                    font-size: 38px;
+                    text-transform: capitalize;
+                    color: #666;
+                    font-weight: 300;
+
+                    span {
+                        color:  #f77c29;
+                    }
+                }
+
+                h2 {
+                    font-size: 50px;
+                    text-transform: uppercase;
+                    color: #333;
+                    font-weight: 900;
+                    padding: 10px 0px;
+                }
+
+                h5 {
+                    font-size: 24px;
+                    text-transform: capitalize;
+                    color: #666;
+                    font-weight: 300;
+                }
+
+                .btn {
+                    padding-top: 30px;
+
+                    a {
+                        padding: 18px 40px;
+                        border: 2px solid #333;
+                        color: #333;
+                        font-weight: 600;
+                        transition: all 0.5s;
+
+                        i {
+                            padding-left: 5px;
+                            transition: all 0.5s;
+                            color: #333;
+                        }
+
+                        &:hover {
+                            background-color: #333;
+                            color: white;
+
+                            i {
+                                transform: rotate(45deg);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-slide-3 {
+    background-image: url("../../../public/img/slide-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 500px;
+
+    .container {
+        .slide {
+            justify-content: end;
+            padding: 50px 0px 30px ;
+            align-items: center;
+
+            .content {
+                width: 35%;
+                h4 {
+                    font-size: 28px;
+                    text-transform: uppercase;
+                    color: #666;
+                    font-weight: 300;
+                    text-align: end;
+                }
+
+                h2 {
+                    font-size: 40px;
+                    text-transform: capitalize;
+                    color: #666;
+                    font-weight: 300;
+                    padding: 10px 0px;
+                    text-align: end;
+                }
+
+                h5 {
+                    font-size: 50px;
+                    text-transform: capitalize;
+                    color: #666;
+                    font-weight: 900;
+                    text-align: end;
+
+                    span {
+                        color: #f77c29;
+                        font-weight: 900;
+                    }
+                }
+
+                .btn {
+                    justify-content: end;
+                    padding-top: 30px;
+
+                    a {
+                        padding: 18px 40px;
+                        border: 2px solid #333;
+                        color: #333;
+                        font-weight: 600;
+                        transition: all 0.5s;
+
+                        i {
+                            padding-left: 5px;
+                            transition: all 0.5s;
+                            color: #333;
+                        }
+
+                        &:hover {
+                            background-color: #333;
+                            color: white;
+
+                            i {
+                                transform: rotate(45deg);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slick-next {
+    right: 30px !important;
+}
+
+.slick-prev {
+    left: 30px !important;
+    z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px !important;
+}

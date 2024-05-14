@@ -1,0 +1,117 @@
+.login-section .container .row .login-form {
+  padding: 40px 0px;
+}
+.login-section .container .row .login-form form {
+  width: 37%;
+  margin: 0px auto;
+  padding: 40px 20px;
+  background-color: #f5f6f8;
+  border-radius: 10px;
+}
+.login-section .container .row .login-form form h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #336699;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 25px;
+}
+.login-section .container .row .login-form form label {
+  padding: 20px 0px 10px;
+  display: block;
+}
+.login-section .container .row .login-form form input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: gray;
+  border: 1px solid gray;
+}
+.login-section .container .row .login-form form .policy p {
+  padding-top: 20px;
+  color: #666666;
+  line-height: 1.5;
+}
+.login-section .container .row .login-form form .chek-box {
+  padding: 30px 0px;
+  justify-content: space-between;
+}
+.login-section .container .row .login-form form .chek-box .left {
+  align-items: center;
+}
+.login-section .container .row .login-form form .chek-box .left input {
+  display: inline-block;
+  width: auto;
+}
+.login-section .container .row .login-form form .chek-box .left label {
+  padding: 0px 10px 0;
+}
+.login-section .container .row .login-form form .chek-box .right a {
+  color: #a94442;
+}
+.login-section .container .row .login-form form .btn a {
+  background-color: #336699;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.login-section .container .row .login-form form .btn a:hover {
+  background-color: #3c78b4;
+}
+.login-section .container .row .login-form form .social {
+  padding: 40px 0px 0px;
+}
+.login-section .container .row .login-form form .social p {
+  text-align: center;
+}
+.login-section .container .row .login-form form .social ul {
+  padding: 15px 0px;
+  justify-content: center;
+}
+.login-section .container .row .login-form form .social ul li {
+  padding: 5px;
+  font-size: 16px;
+}
+.login-section .container .row .login-form form .social ul li i {
+  padding: 11px 15px;
+  border-radius: 50%;
+}
+.login-section .container .row .login-form form .social ul .f-book {
+  color: #1b4f9b;
+}
+.login-section .container .row .login-form form .social ul .f-book i {
+  border: 1px solid #1b4f9b;
+  transition: all 0.5s;
+}
+.login-section .container .row .login-form form .social ul .f-book:hover i {
+  background: #1b4f9b;
+  color: white;
+}
+.login-section .container .row .login-form form .social ul .twitter {
+  color: #00adef;
+}
+.login-section .container .row .login-form form .social ul .twitter i {
+  border: 1px solid #00adef;
+  transition: all 0.5s;
+}
+.login-section .container .row .login-form form .social ul .twitter:hover i {
+  background: #00adef;
+  color: white;
+}
+.login-section .container .row .login-form form .social ul .google {
+  color: #dd4b39;
+}
+.login-section .container .row .login-form form .social ul .google i {
+  border: 1px solid #dd4b39;
+  transition: all 0.5s;
+}
+.login-section .container .row .login-form form .social ul .google:hover i {
+  background: #dd4b39;
+  color: white;
+}/*# sourceMappingURL=login.css.map */
