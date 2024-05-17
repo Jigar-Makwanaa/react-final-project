@@ -226,6 +226,7 @@ header {
             li {
               padding: 15px;
               border-bottom: 1px solid #eeeeee;
+              position: relative;
 
               i {
                 padding-right: 10px;
@@ -237,9 +238,25 @@ header {
                 transition: all 0.5s;
               }
 
+              &::after{
+                position: absolute;
+                content: '';
+                box-sizing: border-box;
+                width: 0%;
+                height: 2px;
+                bottom: 0px;
+                left: 0px;
+                border-bottom: 2px solid #336699;
+                transition: all 0.5s;
+              }
+
               &:hover {
                 i, a {
                   color: #336699;
+                }
+
+                &::after {
+                  width: 100%;
                 }
               }
             }

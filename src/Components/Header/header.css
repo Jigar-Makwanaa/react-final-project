@@ -165,6 +165,7 @@ header .container .row .header .icon-bar .icon ul li:hover i {
 .header-bottom .container .row .categories .drop-down ul li {
   padding: 15px;
   border-bottom: 1px solid #eeeeee;
+  position: relative;
 }
 .header-bottom .container .row .categories .drop-down ul li i {
   padding-right: 10px;
@@ -174,8 +175,22 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   text-transform: capitalize;
   transition: all 0.5s;
 }
+.header-bottom .container .row .categories .drop-down ul li::after {
+  position: absolute;
+  content: "";
+  box-sizing: border-box;
+  width: 0%;
+  height: 2px;
+  bottom: 0px;
+  left: 0px;
+  border-bottom: 2px solid #336699;
+  transition: all 0.5s;
+}
 .header-bottom .container .row .categories .drop-down ul li:hover i, .header-bottom .container .row .categories .drop-down ul li:hover a {
   color: #336699;
+}
+.header-bottom .container .row .categories .drop-down ul li:hover::after {
+  width: 100%;
 }
 .header-bottom .container .row .categories:hover .drop-down {
   visibility: visible;
