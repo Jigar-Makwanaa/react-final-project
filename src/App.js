@@ -1,12 +1,17 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header';
-import Carousel from './Components/Home/Carousel';
+import Homepage from "./Pages/User/Homepage"
+import Shop from './Pages/User/Shop';
 
 function App() {
   return (
     <>
-      <Header/>
-      <Carousel/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Homepage/>}/>
+          <Route path='/shop' element={<Shop/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
