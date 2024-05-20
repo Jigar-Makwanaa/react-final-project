@@ -154,16 +154,12 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   width: 100%;
   left: 0px;
   top: 48px;
-  z-index: 1;
-  visibility: hidden;
-  top: 70px;
-  transition: all 0.5s;
-}
-.header-bottom .container .row .categories .drop-down ul {
   background-color: white;
+  transition: all 0.5s;
+  z-index: 2;
 }
 .header-bottom .container .row .categories .drop-down ul li {
-  padding: 15px;
+  padding: 16px;
   border-bottom: 1px solid #eeeeee;
   position: relative;
 }
@@ -191,12 +187,6 @@ header .container .row .header .icon-bar .icon ul li:hover i {
 }
 .header-bottom .container .row .categories .drop-down ul li:hover::after {
   width: 100%;
-}
-.header-bottom .container .row .categories:hover .drop-down {
-  visibility: visible;
-  top: 48px;
-  transform-origin: top;
-  transition: all 0.5s;
 }
 .header-bottom .container .row .menu {
   width: 50%;

@@ -26,7 +26,7 @@ const Carousel = () => {
                 <img src="../img/shoes.png" alt="" />
               </div>
               <div className="content">
-                <h4>custom <span>mens's</span></h4>
+                <h4>custom <span>men's</span></h4>
                 <h2>running shoes</h2>
                 <h5>sale up to <span>30% off</span></h5>
                 <div className="btn flex">

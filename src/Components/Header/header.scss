@@ -215,16 +215,13 @@ header {
           width: 100%;
           left: 0px;
           top: 48px;
-          // background-color: #f1f1f1;
-          z-index: 1;
-          visibility: hidden;
-          top: 70px;
+          background-color: white;
           transition: all 0.5s;
+          z-index: 2;
 
           ul {
-            background-color: white;
             li {
-              padding: 15px;
+              padding: 16px;
               border-bottom: 1px solid #eeeeee;
               position: relative;
 
@@ -262,16 +259,6 @@ header {
             }
           }
         }
-
-        &:hover{
-          .drop-down{
-            visibility: visible;
-            top: 48px;
-            transform-origin: top;
-            transition: all 0.5s;
-          }
-        }
-
       }
 
       .menu {
