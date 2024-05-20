@@ -32,6 +32,9 @@ const Header = () => {
                   <li>my account</li>
                   <li>login</li>
                   <li>register</li>
+                  <li>
+                    <Link to={'/admin'}>admin</Link>
+                  </li>
                 </ul>
               </div>
             </div>
