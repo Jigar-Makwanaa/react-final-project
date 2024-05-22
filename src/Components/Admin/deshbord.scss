@@ -1,0 +1,154 @@
+.page-header {
+  background-color: #eee;
+  padding: 50px 0px;
+
+  .container {
+    .row {
+      h1 {
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+        color: #333;
+      }
+    }
+  }
+}
+
+.url-path {
+  .container {
+    .row {
+      .path {
+        padding: 20px 0px;
+        border-bottom: 1px solid #eeeeee;
+
+        ul {
+          li {
+            text-transform: capitalize;
+            padding-right: 10px;
+            color: #7e7e7e;
+
+            a {
+              color: #7e7e7e;
+
+              i {
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.leftsidebar-section {
+  padding: 40px 0px;
+
+  .container {
+    .row {
+      .left-bar {
+        .left-side {
+          width: 20%;
+
+          ul {
+            #dashbord{
+              background-color: #eee;
+              a {
+                color: #336699;
+              }
+            }
+            li {
+              border-bottom: 1px solid #eee;
+
+              a {
+                padding: 15px;
+                color: #333;
+                font-size: 18px;
+                font-weight: 600;
+                display: block;
+                text-transform: capitalize;
+                border-radius: 12px;
+                transition: all 0.5s;
+              }
+
+              &:hover {
+                a {
+                  color: #336699;
+                }
+              }
+            }
+          }
+        }
+
+        .right-side {
+          width: 80%;
+          padding: 0px 20px;
+
+          .jigar-account {
+            padding-bottom: 20px;
+
+            p {
+              color: #666;
+              line-height: 1.8;
+              font-size: 19px;
+
+              span {
+                color: #333;
+                font-weight: 600;
+              }
+            }
+          }
+
+          .main {
+            justify-content: space-between;
+
+            .box {
+              border: 2px solid #eee;
+              width: 33%;
+              height: 200px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: center;
+              transition: all 0.5s;
+
+              .icon {
+                i {
+                  font-size: 50px;
+                  color: #333;
+                  transition: all 0.5s;
+                }
+              }
+
+              .content {
+                a {
+                  font-size: 16px;
+                  font-weight: 300;
+                  color: #666;
+                  text-transform: uppercase;
+                }
+              }
+
+              &:hover {
+                box-shadow: 0px 0px 6px 4px #eee;
+                .icon {
+                  i {
+                    transform: scale(1.1);
+                    color: #336699;
+                  }
+                }
+                .content {
+                  a {
+                    color: #336699;
+                    border-bottom: 1px solid #336699;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

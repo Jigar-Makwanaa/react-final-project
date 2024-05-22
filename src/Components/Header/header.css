@@ -136,9 +136,10 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   width: 20%;
   justify-content: space-between;
   padding: 15px;
-  background-color: #f1f1f1;
+  border: 2px solid #336699;
   cursor: pointer;
   position: relative;
+  transition: all 0.5s;
 }
 .header-bottom .container .row .categories a {
   color: black;
@@ -153,9 +154,10 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 48px;
+  top: 70px;
   background-color: white;
   transition: all 0.5s;
+  visibility: hidden;
   z-index: 2;
 }
 .header-bottom .container .row .categories .drop-down ul li {
@@ -165,11 +167,11 @@ header .container .row .header .icon-bar .icon ul li:hover i {
 }
 .header-bottom .container .row .categories .drop-down ul li i {
   padding-right: 10px;
-  transition: all 0.5s;
+  color: black;
 }
 .header-bottom .container .row .categories .drop-down ul li a {
   text-transform: capitalize;
-  transition: all 0.5s;
+  color: black;
 }
 .header-bottom .container .row .categories .drop-down ul li::after {
   position: absolute;
@@ -182,11 +184,23 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   border-bottom: 2px solid #336699;
   transition: all 0.5s;
 }
-.header-bottom .container .row .categories .drop-down ul li:hover i, .header-bottom .container .row .categories .drop-down ul li:hover a {
+.header-bottom .container .row .categories .drop-down ul li:hover i,
+.header-bottom .container .row .categories .drop-down ul li:hover a {
   color: #336699;
 }
 .header-bottom .container .row .categories .drop-down ul li:hover::after {
   width: 100%;
+}
+.header-bottom .container .row .categories:hover {
+  background-color: #336699;
+  color: white;
+}
+.header-bottom .container .row .categories:hover a {
+  color: white;
+}
+.header-bottom .container .row .categories:hover .drop-down {
+  visibility: visible;
+  top: 48px;
 }
 .header-bottom .container .row .menu {
   width: 50%;
@@ -245,6 +259,7 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   letter-spacing: 0.5px;
   transition: all 0.5s;
 }
-.header-bottom .container .row .order ul li:hover i, .header-bottom .container .row .order ul li:hover span {
+.header-bottom .container .row .order ul li:hover i,
+.header-bottom .container .row .order ul li:hover span {
   color: #336699;
 }/*# sourceMappingURL=header.css.map */

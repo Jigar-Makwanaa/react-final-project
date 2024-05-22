@@ -53,6 +53,7 @@ nav {
     }
   }
 }
+
 //    nav end
 
 // header start
@@ -181,6 +182,7 @@ header {
     }
   }
 }
+
 // header end
 
 // header bottom start
@@ -195,9 +197,10 @@ header {
         width: 20%;
         justify-content: space-between;
         padding: 15px;
-        background-color: #f1f1f1;
+        border: 2px solid #336699;
         cursor: pointer;
         position: relative;
+        transition: all 0.5s;
 
         a {
           color: black;
@@ -214,9 +217,10 @@ header {
           position: absolute;
           width: 100%;
           left: 0px;
-          top: 48px;
+          top: 70px;
           background-color: white;
           transition: all 0.5s;
+          visibility: hidden;
           z-index: 2;
 
           ul {
@@ -227,15 +231,15 @@ header {
 
               i {
                 padding-right: 10px;
-                transition: all 0.5s;
+                color: black;
               }
 
               a {
                 text-transform: capitalize;
-                transition: all 0.5s;
+                color: black;
               }
 
-              &::after{
+              &::after {
                 position: absolute;
                 content: '';
                 box-sizing: border-box;
@@ -248,7 +252,9 @@ header {
               }
 
               &:hover {
-                i, a {
+
+                i,
+                a {
                   color: #336699;
                 }
 
@@ -257,6 +263,20 @@ header {
                 }
               }
             }
+          }
+        }
+
+        &:hover {
+          background-color: #336699;
+          color: white;
+
+          a {
+            color: white;
+          }
+
+          .drop-down {
+            visibility: visible;
+            top: 48px;
           }
         }
       }
@@ -336,7 +356,9 @@ header {
             }
 
             &:hover {
-              i , span {
+
+              i,
+              span {
                 color: #336699;
               }
             }
@@ -347,4 +369,5 @@ header {
     }
   }
 }
+
 // header bottom end

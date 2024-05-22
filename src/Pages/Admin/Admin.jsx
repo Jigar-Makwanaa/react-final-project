@@ -1,10 +1,12 @@
 import React from 'react'
-import Leftsidebar from '../../Components/Admin/Leftsidebar'
+import Header from '../../Components/Header/Header'
+import Deshbord from '../../Components/Admin/Deshbord'
 
 const Admin = () => {
   return (
     <>
-      <Leftsidebar/>
+      <Header/>
+      <Deshbord/>
     </>
   )
 }
