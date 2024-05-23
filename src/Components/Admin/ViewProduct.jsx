@@ -1,14 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 const ViewProduct = () => {
   return (
     <>
+      <Header />
+      
       <div className="page-header">
         <div className="container">
           <div className="row">
-            <h1>admin</h1>
-
+            <h1>view product</h1>
           </div>
         </div>
       </div>
@@ -17,11 +19,16 @@ const ViewProduct = () => {
         <div className="container">
           <div className="row">
             <div className="path">
-              <ul className='flex'>
+              <ul className="flex">
                 <li>
-                  <Link to={'/'}>home<i class="fa-solid fa-angle-right"></i></Link>
+                  <Link to={"/"}>
+                    home<i class="fa-solid fa-angle-right"></i>
+                  </Link>
                 </li>
-                <li>admin</li>
+                <li>
+                  <Link to={'/admin'}>admin <i class="fa-solid fa-angle-right"></i></Link>
+                </li>
+                <li>viewproduct</li>
               </ul>
             </div>
           </div>
@@ -34,60 +41,29 @@ const ViewProduct = () => {
             <div className="left-bar flex">
               <div className="left-side">
                 <ul>
-                  <li id='dashbord'>
-                    <Link to={'/admin'}>dashboard</Link>
+                  <li >
+                    <Link to={"/admin"}>dashboard</Link>
                   </li>
                   <li>
-                    <Link to={'/admin/category'}>category</Link>
+                    <Link to={"/admin/category"}>category</Link>
                   </li>
                   <li>
-                    <Link to={'admin/product'}>product</Link>
+                    <Link to={"/admin/product"}>product</Link>
                   </li>
-                  <li>
-                    <Link to={'admin/viewproduct'}>view product</Link>
+                  <li id="dashbord">
+                    <Link to={"/admin/viewproduct"}>view product</Link>
                   </li>
                 </ul>
               </div>
               <div className="right-side">
-                <div className="jigar-account">
-                  <p>Hello <span>Jigar Makwana</span> (not <span>Jigar Makwana</span>? Log out)
-                    <br />
-
-                    From your account dashboard you can view your recent orders, manage your category and product.</p>
-                </div>
-                <div className="main flex">
-                  <div className="box">
-                    <div className="icon">
-                      <i class="fa-solid fa-layer-group"></i>
-                    </div>
-                    <div className="content">
-                      <Link>category</Link>
-                    </div>
-                  </div>
-                  <div className="box">
-                    <div className="icon">
-                      <i class="fa-brands fa-product-hunt"></i>
-                    </div>
-                    <div className="content">
-                      <Link>product</Link>
-                    </div>
-                  </div>
-                  <div className="box">
-                    <div className="icon">
-                      <i class="fa-solid fa-eye"></i>
-                    </div>
-                    <div className="content">
-                      <Link>view product</Link>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ViewProduct
+export default ViewProduct;

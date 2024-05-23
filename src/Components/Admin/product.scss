@@ -57,7 +57,7 @@
           width: 20%;
 
           ul {
-            #category {
+            #product {
               background-color: #eee;
 
               a {
@@ -88,7 +88,7 @@
           }
         }
 
-        .right-side {
+           .right-side {
           width: 80%;
           padding: 0px 25px;
 
@@ -110,7 +110,7 @@
             }
           }
 
-          .cat-add {
+          .product-add {
             form {
               width: 70%;
               label {
@@ -156,6 +156,7 @@
             }  
           }
         }
+            
       }
     }
   }

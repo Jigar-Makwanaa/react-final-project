@@ -48,15 +48,32 @@ const CategoryAdd = () => {
                     <Link to={'/admin/category'}>category</Link>
                   </li>
                   <li>
-                    <Link to={'admin/product'}>product</Link>
+                    <Link to={'/admin/product'}>product</Link>
                   </li>
                   <li>
-                    <Link to={'admin/viewproduct'}>view product</Link>
+                    <Link to={'/admin/viewproduct'}>view product</Link>
                   </li>
                 </ul>
               </div>
               <div className="right-side">
-               
+                <div className="icon-account flex">
+                  <span><i class="fa-solid fa-layer-group"></i></span>
+                  <h4>Category</h4>
+                </div>
+                <div className="cat-add">
+                    <form>
+                      <label>add Category *</label>
+                      <input type="text" />
+
+                      
+                      <label>add Category icon *</label>
+                      <input type="text" />
+
+                      <div className="btn">
+                        <a href="#">add</a>
+                      </div>
+                    </form>
+                </div>
               </div>
             </div>
           </div>

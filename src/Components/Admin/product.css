@@ -36,10 +36,10 @@
 .leftsidebar-section .container .row .left-bar .left-side {
   width: 20%;
 }
-.leftsidebar-section .container .row .left-bar .left-side ul #category {
+.leftsidebar-section .container .row .left-bar .left-side ul #product {
   background-color: #eee;
 }
-.leftsidebar-section .container .row .left-bar .left-side ul #category a {
+.leftsidebar-section .container .row .left-bar .left-side ul #product a {
   color: #336699;
 }
 .leftsidebar-section .container .row .left-bar .left-side ul li {
@@ -77,16 +77,16 @@
   color: #333;
   padding-left: 12px;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form {
   width: 70%;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form label {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form label {
   display: block;
   color: #666;
   text-transform: capitalize;
   padding: 10px;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form input {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form input {
   width: 100%;
   color: #666;
   font-size: 17px;
@@ -94,13 +94,13 @@
   border: 1px solid #eee;
   border-radius: 9px;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form input:focus {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form input:focus {
   border: 1px solid #333;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form .btn {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form .btn {
   padding: 20px 0px;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form .btn a {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form .btn a {
   display: block;
   text-transform: uppercase;
   text-align: center;
@@ -113,6 +113,6 @@
   width: 150px;
   transition: all 0.5s;
 }
-.leftsidebar-section .container .row .left-bar .right-side .cat-add form .btn a:hover {
+.leftsidebar-section .container .row .left-bar .right-side .product-add form .btn a:hover {
   background-color: #336699;
-}/*# sourceMappingURL=category.css.map */
+}/*# sourceMappingURL=product.css.map */
