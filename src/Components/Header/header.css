@@ -144,7 +144,6 @@ header .container .row .header .icon-bar .icon ul li:hover i {
   width: 20%;
   justify-content: space-between;
   padding: 15px;
-  border: 2px solid #336699;
   cursor: pointer;
   position: relative;
   transition: all 0.5s;

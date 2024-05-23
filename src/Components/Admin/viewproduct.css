@@ -57,4 +57,49 @@
 }
 .leftsidebar-section .container .row .left-bar .left-side ul li:hover a {
   color: #336699;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box {
+  width: 25%;
+  padding: 10px 10px;
+  overflow: hidden;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .image {
+  width: 100%;
+  overflow: hidden;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .image img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content {
+  padding: 10px 0px;
+  text-align: center;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content h4 {
+  color: #333;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content h4:hover {
+  color: #369;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content .raiting {
+  padding: 7px 0px;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content .raiting i {
+  font-size: 13px;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content span {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  font-weight: 900;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box .main .content span:hover {
+  color: #336699;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-view .box:hover .main .image img {
+  transform: scale(1.1);
 }/*# sourceMappingURL=viewproduct.css.map */

@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../Header/Header'
 import { Link } from 'react-router-dom'
 import "./category.css"
 
 const CategoryAdd = () => {
+
+  const [category, setCategory] = useState()
+  const [catIcon, setCatIcon] = useState()
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    console.log("done");
+
+    console.log(category);
+    console.log(catIcon);
+  }
+
+
   return (
     <>
       <Header />
@@ -12,7 +26,6 @@ const CategoryAdd = () => {
         <div className="container">
           <div className="row">
             <h1>category</h1>
-
           </div>
         </div>
       </div>
@@ -61,18 +74,18 @@ const CategoryAdd = () => {
                   <h4>Category</h4>
                 </div>
                 <div className="cat-add">
-                    <form>
-                      <label>add Category *</label>
-                      <input type="text" />
+                  <form>
+                    <label>add Category *</label>
+                    <input type="text" onChange={(e) => setCategory(e.target.value)} value={category} />
 
-                      
-                      <label>add Category icon *</label>
-                      <input type="text" />
 
-                      <div className="btn">
-                        <a href="#">add</a>
-                      </div>
-                    </form>
+                    <label>add Category icon *</label>
+                    <input type="text" onChange={(e)=>setCatIcon(e.target.value)} value={catIcon} />
+
+                    <div className="btn">
+                      <a href="#" onClick={handleSubmit}>add</a>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>

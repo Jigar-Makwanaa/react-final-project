@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
+import "./viewproduct.css"
 
 const ViewProduct = () => {
   return (
@@ -56,7 +57,22 @@ const ViewProduct = () => {
                 </ul>
               </div>
               <div className="right-side">
-                
+                <div className="product-view flex">
+                  <div className="box">
+                    <div className="main">
+                      <div className="image">
+                          <img src="https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/3-1-2.jpg" alt="" />
+                      </div>
+                      <div className="content">
+                        <h4>product name</h4>
+                        <div className="raiting">
+                          raiting
+                        </div>
+                        <span>price</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
