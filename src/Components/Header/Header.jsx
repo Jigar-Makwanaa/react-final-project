@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Header = () => {
+
+  const [allCategory, setAllCategory] = useState()
+
+  const record = async () => {
+    try {
+      const { data } = await axios.get(`http://localhost:8000/category`)
+
+      setAllCategory(data)
+    } catch (erro) {
+      console.log(erro);
+    }
+  }
+
+  useEffect(() => {
+    record()
+  }, [])
+
+  console.log(allCategory);
+
   return (
     <>
       <nav>
@@ -99,7 +119,21 @@ const Header = () => {
               </span>
               <div className="drop-down">
                 <ul>
-                  <li>
+
+                  {
+                    allCategory && allCategory.map((val) => {
+                      return (
+                        <>
+                          <li>
+                            <i className={`${val.catIcon}`}></i>
+                            <a href="">{val.category}</a>
+                          </li>
+                        </>
+                      )
+                    })
+                  }
+
+                  {/* <li>
                     <i class="fa-solid fa-shirt"></i>
                     <a href="#">Fashion</a>
                   </li>
@@ -138,7 +172,7 @@ const Header = () => {
                   <li>
                   <i class="fa-solid fa-camera"></i>
                     <a href="#">camera & photo</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

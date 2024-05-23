@@ -1,0 +1,14 @@
+{
+  "category": [
+    {
+      "id": "abab",
+      "category": "Home & Garden",
+      "catIcon": "<i class=\"fa-solid fa-house\"></i>"
+    },
+    {
+      "id": "2da1",
+      "category": "Electronics",
+      "catIcon": " <i class=\"fa-solid fa-laptop\"></i>"
+    }
+  ]
+}

@@ -2,21 +2,33 @@ import React, { useState } from 'react'
 import Header from '../Header/Header'
 import { Link } from 'react-router-dom'
 import "./category.css"
+import axios from 'axios'
 
 const CategoryAdd = () => {
 
   const [category, setCategory] = useState()
   const [catIcon, setCatIcon] = useState()
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
 
-    console.log("done");
+    try {
 
-    console.log(category);
-    console.log(catIcon);
+      const {data} = await axios.post(`http://localhost:8000/category`,{
+        category : category,
+        catIcon : catIcon
+      })
+
+      setCategory('')
+      setCatIcon('')
+
+      console.log(data);
+
+    } catch (erro) {
+      console.log(erro);
+    }
+
   }
-
 
   return (
     <>
@@ -29,7 +41,6 @@ const CategoryAdd = () => {
           </div>
         </div>
       </div>
-
       <div className="url-path">
         <div className="container">
           <div className="row">
@@ -80,7 +91,7 @@ const CategoryAdd = () => {
 
 
                     <label>add Category icon *</label>
-                    <input type="text" onChange={(e)=>setCatIcon(e.target.value)} value={catIcon} />
+                    <input type="text" onChange={(e) => setCatIcon(e.target.value)} value={catIcon} />
 
                     <div className="btn">
                       <a href="#" onClick={handleSubmit}>add</a>
