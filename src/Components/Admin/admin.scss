@@ -275,6 +275,21 @@
                 }
               }
 
+              .select-cat {
+                padding: 10px 0px;
+                
+                select {
+                  padding: 10px 5px;
+                  font-size: 17px;
+                  border: 2px solid #eee;
+                  color: #666;
+
+                  option {
+                    color: #666;
+                  }
+                }
+              }
+
               .btn {
                 padding: 20px 0px;
 
@@ -298,7 +313,6 @@
               }
             }
           }
-
           // product css end
 
 

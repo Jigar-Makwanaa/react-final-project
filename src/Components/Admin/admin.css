@@ -197,6 +197,18 @@
 .leftsidebar-section .container .row .left-bar .right-side .product-add form input:focus {
   border: 1px solid #333;
 }
+.leftsidebar-section .container .row .left-bar .right-side .product-add form .select-cat {
+  padding: 10px 0px;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-add form .select-cat select {
+  padding: 10px 5px;
+  font-size: 17px;
+  border: 2px solid #eee;
+  color: #666;
+}
+.leftsidebar-section .container .row .left-bar .right-side .product-add form .select-cat select option {
+  color: #666;
+}
 .leftsidebar-section .container .row .left-bar .right-side .product-add form .btn {
   padding: 20px 0px;
 }

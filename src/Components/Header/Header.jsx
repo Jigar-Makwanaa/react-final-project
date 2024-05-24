@@ -9,6 +9,9 @@ const Header = () => {
 
   const [allCategory, setAllCategory] = useState([])
 
+  console.log(allCategory);
+
+
   const record = async () => {
     try {
       const { data } = await axios.get(`http://localhost:8000/category`)
@@ -18,14 +21,11 @@ const Header = () => {
     catch (error) {
       console.log(error);
     }
-
   }
-
-  console.log(allCategory);
 
   useEffect(() => {
     record()
-  }, [allCategory])
+  }, [])
 
   return (
     <>
@@ -126,11 +126,11 @@ const Header = () => {
 
                   {
                     allCategory.map((val) => {
-                      
+
                       const { id, name, icon } = val;
 
                       return (
-                        <li>
+                        <li key={id}>
                           <i className={icon}></i>
                           <a href="">{name}</a>
                         </li>

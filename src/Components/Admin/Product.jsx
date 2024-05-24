@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import "./admin.css"
+import axios from "axios";
 
 const Product = () => {
+
+  const [category, setCategory] = useState([])
+
+  const catRecord = async () => {
+    try {
+      const { data } = await axios.get(`http://localhost:8000/category`)
+
+      setCategory(data)
+
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  console.log(category);
+
+  useEffect(() => {
+    catRecord()
+  }, [])
+
   return (
     <>
       <Header />
@@ -62,24 +83,38 @@ const Product = () => {
                   <h4>product</h4>
                 </div>
                 <div className="product-add">
-                    <form>
-                      <label>add product name *</label>
-                      <input type="text" />
-                      
-                      <label>add product image *</label>
-                      <input type="text" />
+                  <form>
+                    <label>add product name *</label>
+                    <input type="text" />
 
-                      <label>product price *</label>
-                      <input type="text" />
+                    <label>add product image *</label>
+                    <input type="text" />
 
-                      
-                      <label>select product category *</label>
-                      <input type="text" />
+                    <label>product price *</label>
+                    <input type="text" />
 
-                      <div className="btn">
-                        <a href="#">add</a>
-                      </div>
-                    </form>
+
+                    <label>select product category *</label>
+
+                    <div className="select-cat">
+                      <select name="hey" id="">
+                        {
+                          category.map((val) => {
+
+                            const { id, name, icon } = val;
+
+                            return (
+                              <option>{name}</option>
+                            )
+                          })
+                        }
+                      </select>
+                    </div>
+
+                    <div className="btn">
+                      <a href="#">add</a>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
