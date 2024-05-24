@@ -8,27 +8,27 @@ const CategoryAdd = () => {
 
   const [category, setCategory] = useState()
   const [catIcon, setCatIcon] = useState()
+  const [record, setRecord] = useState([])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    try {
+    const { data } = await axios.post(`http://localhost:8000/category`, {
+      name: category,
+      icon: catIcon
+    })
 
-      const {data} = await axios.post(`http://localhost:8000/category`,{
-        category : category,
-        catIcon : catIcon
-      })
+    setRecord(data)
 
-      setCategory('')
-      setCatIcon('')
+    console.log(data);
 
-      console.log(data);
+    alert("Category successfully adeed")
 
-    } catch (erro) {
-      console.log(erro);
-    }
-
+    setCategory('')
+    setCatIcon('')
   }
+
+  // console.log(record);
 
   return (
     <>
@@ -58,7 +58,6 @@ const CategoryAdd = () => {
           </div>
         </div>
       </div>
-
       <div className="leftsidebar-section">
         <div className="container">
           <div className="row">

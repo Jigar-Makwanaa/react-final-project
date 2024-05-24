@@ -2,26 +2,30 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { FaFontAwesome } from "react-icons/fa6";
+import { ImCalculator } from "react-icons/im";
 
 const Header = () => {
 
-  const [allCategory, setAllCategory] = useState()
+  const [allCategory, setAllCategory] = useState([])
 
   const record = async () => {
     try {
       const { data } = await axios.get(`http://localhost:8000/category`)
 
       setAllCategory(data)
-    } catch (erro) {
-      console.log(erro);
     }
+    catch (error) {
+      console.log(error);
+    }
+
   }
+
+  console.log(allCategory);
 
   useEffect(() => {
     record()
-  }, [])
-
-  console.log(allCategory);
+  }, [allCategory])
 
   return (
     <>
@@ -121,58 +125,18 @@ const Header = () => {
                 <ul>
 
                   {
-                    allCategory && allCategory.map((val) => {
+                    allCategory.map((val) => {
+                      
+                      const { id, name, icon } = val;
+
                       return (
-                        <>
-                          <li>
-                            <i className={`${val.catIcon}`}></i>
-                            <a href="">{val.category}</a>
-                          </li>
-                        </>
+                        <li>
+                          <i className={icon}></i>
+                          <a href="">{name}</a>
+                        </li>
                       )
                     })
                   }
-
-                  {/* <li>
-                    <i class="fa-solid fa-shirt"></i>
-                    <a href="#">Fashion</a>
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-house"></i>
-                    <a href="#">Home & Garden</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-laptop"></i>
-                    <a href="#">Electronics</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-couch"></i>
-                    <a href="#">furniture</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-heart-pulse"></i>
-                    <a href="#">healthy & beauty</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-gift"></i>
-                    <a href="#">gift ideas</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-gamepad"></i>
-                    <a href="#">toy & games</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-utensils"></i>
-                    <a href="#">cooking</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-mobile"></i>
-                    <a href="#">smart phones</a>
-                  </li>
-                  <li>
-                  <i class="fa-solid fa-camera"></i>
-                    <a href="#">camera & photo</a>
-                  </li> */}
                 </ul>
               </div>
             </div>

@@ -1,14 +1,54 @@
 {
   "category": [
     {
-      "id": "abab",
-      "category": "Home & Garden",
-      "catIcon": "<i class=\"fa-solid fa-house\"></i>"
+      "id": "d12c",
+      "name": "Fashion",
+      "icon": "fa-solid fa-shirt"
     },
     {
-      "id": "2da1",
-      "category": "Electronics",
-      "catIcon": " <i class=\"fa-solid fa-laptop\"></i>"
+      "id": "e896",
+      "name": "Home & Garden",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "id": "ffc5",
+      "name": "Electronics",
+      "icon": "fa-solid fa-laptop"
+    },
+    {
+      "id": "f69f",
+      "name": "furniture",
+      "icon": "fa-solid fa-couch"
+    },
+    {
+      "id": "5d32",
+      "name": "healthy & beauty",
+      "icon": "fa-solid fa-heart-pulse"
+    },
+    {
+      "id": "edd2",
+      "name": "gift ideas",
+      "icon": "fa-solid fa-gift"
+    },
+    {
+      "id": "c1a6",
+      "name": "toy & games",
+      "icon": "fa-solid fa-gamepad"
+    },
+    {
+      "id": "afc3",
+      "name": "cooking",
+      "icon": "fa-solid fa-utensils"
+    },
+    {
+      "id": "a5c0",
+      "name": "smart phones",
+      "icon": "fa-solid fa-mobile"
+    },
+    {
+      "id": "d350",
+      "name": "camera & photo",
+      "icon": "fa-solid fa-camera"
     }
   ]
 }
