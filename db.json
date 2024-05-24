@@ -50,5 +50,31 @@
       "name": "camera & photo",
       "icon": "fa-solid fa-camera"
     }
+  ],
+  "product": [
+    {
+      "id": "633e"
+    },
+    {
+      "id": "21db",
+      "name": "",
+      "img": "",
+      "price": "",
+      "category": ""
+    },
+    {
+      "id": "073b",
+      "name": "",
+      "img": "",
+      "price": "",
+      "category": "Home & Garden"
+    },
+    {
+      "id": "6e73",
+      "name": "",
+      "img": "",
+      "price": "",
+      "category": "Fashion"
+    }
   ]
 }

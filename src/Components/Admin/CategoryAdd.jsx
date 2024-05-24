@@ -1,32 +1,31 @@
-import React, { useState } from 'react'
-import Header from '../Header/Header'
-import { Link } from 'react-router-dom'
-import "./admin.css"
-import axios from 'axios'
+import React, { useEffect, useState } from "react";
+import Header from "../Header/Header";
+import { Link } from "react-router-dom";
+import "./admin.css";
+import axios from "axios";
 
 const CategoryAdd = () => {
-
-  const [category, setCategory] = useState()
-  const [catIcon, setCatIcon] = useState()
-  const [record, setRecord] = useState([])
+  const [category, setCategory] = useState();
+  const [catIcon, setCatIcon] = useState();
+  const [record, setRecord] = useState([]);
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     const { data } = await axios.post(`http://localhost:8000/category`, {
       name: category,
-      icon: catIcon
-    })
+      icon: catIcon,
+    });
 
-    setRecord(data)
+    setRecord(data);
 
     console.log(data);
 
-    alert("Category successfully adeed")
+    alert("Category successfully adeed");
 
-    setCategory('')
-    setCatIcon('')
-  }
+    setCategory("");
+    setCatIcon("");
+  };
 
   // console.log(record);
 
@@ -45,12 +44,16 @@ const CategoryAdd = () => {
         <div className="container">
           <div className="row">
             <div className="path">
-              <ul className='flex'>
+              <ul className="flex">
                 <li>
-                  <Link to={'/'}>home<i class="fa-solid fa-angle-right"></i></Link>
+                  <Link to={"/"}>
+                    home<i class="fa-solid fa-angle-right"></i>
+                  </Link>
                 </li>
                 <li>
-                  <Link to={'/admin'}>admin <i class="fa-solid fa-angle-right"></i></Link>
+                  <Link to={"/admin"}>
+                    admin <i class="fa-solid fa-angle-right"></i>
+                  </Link>
                 </li>
                 <li>category</li>
               </ul>
@@ -65,35 +68,46 @@ const CategoryAdd = () => {
               <div className="left-side">
                 <ul>
                   <li>
-                    <Link to={'/admin'}>dashboard</Link>
+                    <Link to={"/admin"}>dashboard</Link>
                   </li>
-                  <li id='category'>
-                    <Link to={'/admin/category'}>category</Link>
-                  </li>
-                  <li>
-                    <Link to={'/admin/product'}>product</Link>
+                  <li id="category">
+                    <Link to={"/admin/category"}>category</Link>
                   </li>
                   <li>
-                    <Link to={'/admin/viewproduct'}>view product</Link>
+                    <Link to={"/admin/product"}>product</Link>
+                  </li>
+                  <li>
+                    <Link to={"/admin/viewproduct"}>view product</Link>
                   </li>
                 </ul>
               </div>
               <div className="right-side">
                 <div className="icon-account flex">
-                  <span><i class="fa-solid fa-layer-group"></i></span>
+                  <span>
+                    <i class="fa-solid fa-layer-group"></i>
+                  </span>
                   <h4>Category</h4>
                 </div>
                 <div className="cat-add">
                   <form>
                     <label>add Category *</label>
-                    <input type="text" onChange={(e) => setCategory(e.target.value)} value={category} />
-
+                    <input
+                      type="text"
+                      onChange={(e) => setCategory(e.target.value)}
+                      value={category}
+                    />
 
                     <label>add Category icon *</label>
-                    <input type="text" onChange={(e) => setCatIcon(e.target.value)} value={catIcon} />
+                    <input
+                      type="text"
+                      onChange={(e) => setCatIcon(e.target.value)}
+                      value={catIcon}
+                    />
 
                     <div className="btn">
-                      <a href="#" onClick={handleSubmit}>add</a>
+                      <a href="#" onClick={handleSubmit}>
+                        add
+                      </a>
                     </div>
                   </form>
                 </div>
@@ -103,7 +117,7 @@ const CategoryAdd = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default CategoryAdd
+export default CategoryAdd;
