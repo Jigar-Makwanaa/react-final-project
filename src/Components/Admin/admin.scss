@@ -52,12 +52,38 @@
           width: 20%;
 
           ul {
-            #dashbord{
+            #dashbord {
               background-color: #eee;
+
               a {
                 color: #336699;
               }
             }
+
+            #category {
+              background-color: #eee;
+
+              a {
+                color: #336699;
+              }
+            }
+
+            #product {
+              background-color: #eee;
+
+              a {
+                color: #336699;
+              }
+            }
+
+            #viewproduct {
+              background-color: #eee;
+
+              a {
+                color: #336699;
+              }
+            }
+
             li {
               border-bottom: 1px solid #eee;
 
@@ -83,8 +109,9 @@
 
         .right-side {
           width: 80%;
-          padding: 0px 20px;
+          padding: 0px 25px;
 
+          // deshbord css start 
           .jigar-account {
             padding-bottom: 20px;
 
@@ -132,12 +159,14 @@
 
               &:hover {
                 box-shadow: 0px 0px 6px 4px #eee;
+
                 .icon {
                   i {
                     transform: scale(1.1);
                     color: #336699;
                   }
                 }
+
                 .content {
                   a {
                     color: #336699;
@@ -147,6 +176,200 @@
               }
             }
           }
+
+          // deshbord css end
+
+          // category css start 
+          .icon-account {
+            align-items: center;
+            padding-bottom: 20px;
+
+            span {
+              i {
+                color: #666;
+                font-size: 25px
+              }
+            }
+
+            h4 {
+              text-transform: capitalize;
+              font-size: 20px;
+              font-weight: 600;
+              color: #333;
+              padding-left: 12px;
+            }
+          }
+
+          .cat-add {
+            form {
+              width: 70%;
+
+              label {
+                display: block;
+                color: #666;
+                text-transform: capitalize;
+                padding: 10px;
+              }
+
+              input {
+                width: 100%;
+                color: #666;
+                font-size: 17px;
+                padding: 9px 10px;
+                border: 1px solid #eee;
+                border-radius: 9px;
+
+                &:focus {
+                  border: 1px solid #333;
+                }
+              }
+
+              .btn {
+                padding: 20px 0px;
+
+                a {
+                  display: block;
+                  text-transform: uppercase;
+                  text-align: center;
+                  color: white;
+                  background-color: #333;
+                  padding: 10px 15px;
+                  font-size: 15px;
+                  font-weight: 900;
+                  border-radius: 9px;
+                  width: 150px;
+                  transition: all 0.5s;
+
+                  &:hover {
+                    background-color: #336699;
+                  }
+                }
+              }
+            }
+          }
+
+          // category css end
+
+          // product css start 
+          .product-add {
+            form {
+              width: 70%;
+
+              label {
+                display: block;
+                color: #666;
+                text-transform: capitalize;
+                padding: 10px;
+              }
+
+              input {
+                width: 100%;
+                color: #666;
+                font-size: 17px;
+                padding: 9px 10px;
+                border: 1px solid #eee;
+                border-radius: 9px;
+
+                &:focus {
+                  border: 1px solid #333;
+                }
+              }
+
+              .btn {
+                padding: 20px 0px;
+
+                a {
+                  display: block;
+                  text-transform: uppercase;
+                  text-align: center;
+                  color: white;
+                  background-color: #333;
+                  padding: 10px 15px;
+                  font-size: 15px;
+                  font-weight: 900;
+                  border-radius: 9px;
+                  width: 150px;
+                  transition: all 0.5s;
+
+                  &:hover {
+                    background-color: #336699;
+                  }
+                }
+              }
+            }
+          }
+
+          // product css end
+
+
+          // viewproduct css start
+          .product-view {
+            .box {
+              width: 25%;
+              padding: 10px 10px;
+              overflow: hidden;
+
+              .main {
+                .image {
+                  width: 100%;
+                  overflow: hidden;
+
+                  img {
+                    display: block;
+                    width: 100%;
+                    transition: all 0.5s;
+                  }
+                }
+
+                .content {
+                  padding: 10px 0px;
+                  text-align: center;
+
+                  h4 {
+                    color: #333;
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    transition: all 0.5s;
+
+                    &:hover {
+                      color: #369;
+                    }
+                  }
+
+                  .raiting {
+                    padding: 7px 0px;
+
+                    i {
+                      font-size: 13px;
+                    }
+                  }
+
+                  span {
+                    display: block;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: 900;
+
+                    &:hover {
+                      color: #336699;
+                    }
+                  }
+                }
+              }
+
+              &:hover {
+                .main {
+                  .image {
+                    img {
+                      transform: scale(1.1);
+                    }
+                  }
+                }
+              }
+            }
+          }
+          // viewproduct css end
+
         }
       }
     }

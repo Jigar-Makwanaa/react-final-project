@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../Header/Header'
 import { Link } from 'react-router-dom'
-import "./category.css"
+import "./admin.css"
 import axios from 'axios'
 
 const CategoryAdd = () => {
