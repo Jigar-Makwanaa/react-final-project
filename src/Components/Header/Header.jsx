@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { FaFontAwesome } from "react-icons/fa6";
-import { ImCalculator } from "react-icons/im";
 
 const Header = () => {
 
@@ -57,7 +55,7 @@ const Header = () => {
                   <li>login</li>
                   <li>register</li>
                   <li>
-                    <Link to={'/admin'}>admin</Link>
+                    <Link to={"/admin"}>admin</Link>
                   </li>
                 </ul>
               </div>

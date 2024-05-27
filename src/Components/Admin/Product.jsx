@@ -142,6 +142,8 @@ const Product = () => {
                         <option >letest</option>
                         <option >populer</option>
                         <option >Clothing & Apparel</option>
+                        <option >Consumer Electric</option>
+                        <option >Home Garden & Kitchen</option>
                       </select>
                     </div>
 

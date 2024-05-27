@@ -51,6 +51,7 @@
       "icon": "fa-solid fa-camera"
     }
   ],
+  
   "product": [
     {
       "id": "3182",
@@ -243,6 +244,126 @@
       "price": "2699",
       "market": "Clothing & Apparel",
       "category": "Fashion"
+    },
+    {
+      "id": "1959",
+      "name": "Professional Pixel Camera",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-1-2.jpg",
+      "price": "35999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "a35c",
+      "name": "Wash Machine",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-2-2.jpg",
+      "price": "25999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "0928",
+      "name": "HD Television",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-3.jpg",
+      "price": "12999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "adec",
+      "name": "Data Transformer Tool",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-4.jpg",
+      "price": "45999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "17db",
+      "name": "Latest Speaker",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-5.jpg",
+      "price": "23999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "c3fa",
+      "name": "USB Receipt",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-7.jpg",
+      "price": "18999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "ea27",
+      "name": "Multi Functional Apple iPhone",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/5-8.jpg",
+      "price": "17999",
+      "market": "Consumer Electric",
+      "category": "Electronics"
+    },
+    {
+      "id": "6521",
+      "name": "Home Sofa",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-1.jpg",
+      "price": "35999",
+      "market": "Home Garden & Kitchen",
+      "category": "furniture"
+    },
+    {
+      "id": "1640",
+      "name": "Kitchen Table",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-2-2.jpg",
+      "price": "25999",
+      "market": "Home Garden & Kitchen",
+      "category": "furniture"
+    },
+    {
+      "id": "89d4",
+      "name": "Table Lamp",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-3-2.jpg",
+      "price": "9999",
+      "market": "Home Garden & Kitchen",
+      "category": "furniture"
+    },
+    {
+      "id": "bd5a",
+      "name": "Latest Chair",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-4.jpg",
+      "price": "11999",
+      "market": "Home Garden & Kitchen",
+      "category": "furniture"
+    },
+    {
+      "id": "4d43",
+      "name": "Electric Rice-Cooker",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-5.jpg",
+      "price": "899",
+      "market": "Home Garden & Kitchen",
+      "category": "Home & Garden"
+    },
+    {
+      "id": "20c2",
+      "name": "Kitchen Cooker",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-6.jpg",
+      "price": "999",
+      "market": "Home Garden & Kitchen",
+      "category": "Home & Garden"
+    },
+    {
+      "id": "a87f",
+      "name": "Electric Frying Pan",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-7.jpg",
+      "price": "799",
+      "market": "Home Garden & Kitchen",
+      "category": "Home & Garden"
+    },
+    {
+      "id": "058a",
+      "name": "Automatic Crusher",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-8-2.jpg",
+      "price": "9999",
+      "market": "Home Garden & Kitchen",
+      "category": "Electronics"
     }
   ]
 }
