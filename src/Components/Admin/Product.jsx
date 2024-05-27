@@ -7,11 +7,12 @@ import axios from "axios";
 const Product = () => {
   // category get start
 
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState([]);
   const [productName, setProductName] = useState();
   const [productImg, setProductImg] = useState();
   const [productPrice, setProductPrice] = useState();
   const [productCategory, setProductCategory] = useState();
+  const [marketValue, setMarketValue] = useState()
   const [product, setProduct] = useState([]);
 
   const catRecord = async () => {
@@ -41,6 +42,7 @@ const Product = () => {
       name: productName,
       img: productImg,
       price: productPrice,
+      market : marketValue,
       category: productCategory,
     });
 
@@ -125,19 +127,29 @@ const Product = () => {
                   <form>
                     <label>add product name *</label>
                     <input
-                      type="text" onChange={(e) => setProductName(e.target.value)} value={productName}/>
+                      type="text" onChange={(e) => setProductName(e.target.value)} value={productName} />
 
                     <label>add product image *</label>
-                    <input type="text" onChange={(e)=>setProductImg(e.target.value)} value={productImg}/>
+                    <input type="text" onChange={(e) => setProductImg(e.target.value)} value={productImg} />
 
                     <label>product price *</label>
-                    <input type="text" onChange={(e)=>setProductPrice(e.target.value)} value={productPrice} />
+                    <input type="text" onChange={(e) => setProductPrice(e.target.value)} value={productPrice} />
+
+                    <label>market value *</label>
+
+                    <div className="select-cat">
+                      <select  onChange={(e) => setMarketValue(e.target.value)} value={marketValue}>
+                        <option >letest</option>
+                        <option >populer</option>
+                        <option >Clothing & Apparel</option>
+                      </select>
+                    </div>
 
                     <label>select product category *</label>
 
                     <div className="select-cat">
-                      <select name="hey" id="" onChange={(e)=>setProductCategory(e.target.value)} value={productCategory}>
-                      {/* <option>select categort</option> */}
+                      <select name="hey" id="" onChange={(e) => setProductCategory(e.target.value)} value={productCategory}>
+                        {/* <option>select categort</option> */}
                         {category &&
                           category.map((val) => {
                             const { id, name, icon } = val;
