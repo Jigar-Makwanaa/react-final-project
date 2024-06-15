@@ -46,10 +46,27 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="banner-section flex">
+                            <div className="box flex" style={{ backgroundImage: 'url("../img/1-1.jpg")' }}>
+                                <div className="content">
+                                    <h3>Get up to<span>20% OFF</span></h3>
+                                    <h2>SPORTS OUTFITS</h2>
+                                    <h4>Collection</h4>
+                                    <h5>Starting a <span>$170.00</span></h5>
+                                </div>
+                            </div>
+                            <div className="box flex" style={{ backgroundImage: 'url("../img/1-2.jpg")' }}>
+                                <div className="content c-2">
+                                    <h3>New Arrivals</h3>
+                                    <h2>ACCESSORIES</h2>
+                                    <h4>Collection</h4>
+                                    <h5>Only From<span>$90.00</span></h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

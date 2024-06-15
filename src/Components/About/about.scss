@@ -1,14 +1,17 @@
 .about-section {
     padding: 100px 0px;
+
     .container {
         .row {
             .main {
+                padding: 20px 0px;
                 justify-content: space-between;
+
                 .box {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                
+
                     .img {
                         i {
                             padding-right: 20px;
@@ -17,10 +20,12 @@
                             transition: all 0.5s;
                         }
                     }
+
                     .content {
                         h4 {
                             color: #333;
                         }
+
                         h5 {
                             color: #666;
                         }
@@ -30,6 +35,92 @@
                         .img {
                             i {
                                 transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .banner-section {
+                padding: 40px 0px;
+                justify-content: space-between;
+
+                .box {
+                    width: 49%;
+                    height: 260px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    align-items: center;
+
+                    .content {
+                        padding: 0px 40px;
+                        width: 50%;
+
+                        h3 {
+                            font-size: 20px;
+                            color: #333;
+                            padding: 5px 0px;
+
+                            span {
+                                color: #f77c29;
+                                font-weight: 900;
+                            }
+                        }
+
+                        h2 {
+                            font-size: 26px;
+                            font-weight: 900;
+                        }
+
+                        h4 {
+                            font-size: 26px;
+                            padding: 5px 0px;
+                        }
+
+                        h5 {
+                            color: #666;
+                            font-size: 18px;
+                            padding-top: 30px;
+
+                            span {
+                                color: #f77c29;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    .c-2 {
+                        h3 {
+                            font-size: 20px;
+                            color: #c4c4c5;
+                            padding: 5px 0px;
+
+                            span {
+                                color: #f77c29;
+                                font-weight: 900;
+                            }
+                        }
+
+                        h2 {
+                            font-size: 26px;
+                            font-weight: 900;
+                            color: white;
+                        }
+
+                        h4 {
+                            font-size: 26px;
+                            padding: 5px 0px;
+                            color: white;
+                        }
+
+                        h5 {
+                            color: white;
+                            font-size: 18px;
+                            padding-top: 30px;
+
+                            span {
+                                color: #f77c29;
+                                font-size: 18px;
+                                padding-left: 7px;
                             }
                         }
                     }

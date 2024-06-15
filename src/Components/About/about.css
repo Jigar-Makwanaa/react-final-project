@@ -2,6 +2,7 @@
   padding: 100px 0px;
 }
 .about-section .container .row .main {
+  padding: 20px 0px;
   justify-content: space-between;
 }
 .about-section .container .row .main .box {
@@ -23,4 +24,74 @@
 }
 .about-section .container .row .main .box:hover .img i {
   transform: scale(1.1);
+}
+.about-section .container .row .banner-section {
+  padding: 40px 0px;
+  justify-content: space-between;
+}
+.about-section .container .row .banner-section .box {
+  width: 49%;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.about-section .container .row .banner-section .box .content {
+  padding: 0px 40px;
+  width: 50%;
+}
+.about-section .container .row .banner-section .box .content h3 {
+  font-size: 20px;
+  color: #333;
+  padding: 5px 0px;
+}
+.about-section .container .row .banner-section .box .content h3 span {
+  color: #f77c29;
+  font-weight: 900;
+}
+.about-section .container .row .banner-section .box .content h2 {
+  font-size: 26px;
+  font-weight: 900;
+}
+.about-section .container .row .banner-section .box .content h4 {
+  font-size: 26px;
+  padding: 5px 0px;
+}
+.about-section .container .row .banner-section .box .content h5 {
+  color: #666;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.about-section .container .row .banner-section .box .content h5 span {
+  color: #f77c29;
+  font-size: 18px;
+}
+.about-section .container .row .banner-section .box .c-2 h3 {
+  font-size: 20px;
+  color: #c4c4c5;
+  padding: 5px 0px;
+}
+.about-section .container .row .banner-section .box .c-2 h3 span {
+  color: #f77c29;
+  font-weight: 900;
+}
+.about-section .container .row .banner-section .box .c-2 h2 {
+  font-size: 26px;
+  font-weight: 900;
+  color: white;
+}
+.about-section .container .row .banner-section .box .c-2 h4 {
+  font-size: 26px;
+  padding: 5px 0px;
+  color: white;
+}
+.about-section .container .row .banner-section .box .c-2 h5 {
+  color: white;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.about-section .container .row .banner-section .box .c-2 h5 span {
+  color: #f77c29;
+  font-size: 18px;
+  padding-left: 7px;
 }/*# sourceMappingURL=about.css.map */
