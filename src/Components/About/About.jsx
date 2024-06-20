@@ -5,6 +5,8 @@ const About = () => {
     return (
         <>
 
+            {/* about section start  */}
+
             <div className="about-section">
                 <div className="container">
                     <div className="row">
@@ -46,7 +48,18 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="banner-section flex">
+                    </div>
+                </div>
+            </div>
+
+            {/* about section end  */}
+
+            {/* banner section start  */}
+
+            <div className="banner-section">
+                <div className="container">
+                    <div className="row flex">
+                        <div className="main-box">
                             <div className="box flex" style={{ backgroundImage: 'url("../img/1-1.jpg")' }}>
                                 <div className="content">
                                     <h3>Get up to<span>20% OFF</span></h3>
@@ -55,6 +68,8 @@ const About = () => {
                                     <h5>Starting a <span>$170.00</span></h5>
                                 </div>
                             </div>
+                        </div>
+                        <div className="main-box">
                             <div className="box flex" style={{ backgroundImage: 'url("../img/1-2.jpg")' }}>
                                 <div className="content c-2">
                                     <h3>New Arrivals</h3>
@@ -67,6 +82,37 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            {/* banner section end */}
+
+
+            {/* top categories section start */}
+
+            <section className='category-section'>
+                <div className="container">
+                    <div className="row">
+                        <div className="head">
+                            <h2>Top Categories Of The Month</h2>
+                        </div>
+                        <div className="all-cat flex">
+                            <div className="box">
+                                <div className="content">
+                                    <div className="image">
+                                        <img src="" alt="" />
+                                        <div className="name">
+                                            <h4>fashion</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* top categories section end */}
+
         </>
     )
 }
