@@ -1,0 +1,61 @@
+// category section start 
+
+.category-section {
+  padding: 50px 0px;
+  background-color: #f5f5f5;
+
+  .container {
+    .row {
+      .head {
+        padding-bottom: 15px;
+        h2 {
+          font-size: 20px;
+          color: #333;
+          text-align: center;
+          font-weight: 900;
+        }
+      }
+
+      .all-cat {
+        justify-content: space-between;
+        gap: 10px 0px;
+
+        .box {
+          width: 189px;
+          background-color: #f5f5f5;
+          margin: 15px 0px;
+         
+
+          .content {
+           
+            .image {
+             
+              img {
+                display: block;
+              }
+
+              .name {
+                margin-top: -18%;
+
+                h4 {
+                  text-align: center;
+                }
+              }
+            }
+          }
+          &:hover {
+            .content {
+              .image {
+                .name {
+                  color: #336699;
+              }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// category section end

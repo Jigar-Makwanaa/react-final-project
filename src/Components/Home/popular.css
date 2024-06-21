@@ -1,0 +1,121 @@
+.popular-section {
+  padding: 40px 0px;
+}
+.popular-section .container .row .head {
+  padding-bottom: 15px;
+}
+.popular-section .container .row .head h2 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: 900;
+}
+.popular-section .container .row .main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.popular-section .container .row .main-box .box {
+  width: 18%;
+  padding: 15px 0px;
+}
+.popular-section .container .row .main-box .box .content .image {
+  overflow: hidden;
+}
+.popular-section .container .row .main-box .box .content .image img {
+  width: 100%;
+  transform: scale(1.2);
+}
+.popular-section .container .row .main-box .box .content .details {
+  padding: 12px 0px;
+}
+.popular-section .container .row .main-box .box .content .details h3 {
+  text-align: center;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.popular-section .container .row .main-box .box .content .details .icon {
+  text-align: center;
+  padding: 10px 0px;
+}
+.popular-section .container .row .main-box .box .content .details .icon i {
+  color: #f77c29;
+  padding: 0px 4px;
+}
+.popular-section .container .row .main-box .box .content .details span {
+  text-align: center;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+}
+.popular-section .container .row .main-box .box:hover .content .image img {
+  transform: scale(1.1);
+}
+.popular-section .container .row .main-box .box:hover .content .details span {
+  color: #336699;
+}
+
+.banner-section {
+  padding: 40px 0px;
+  justify-content: space-between;
+}
+.banner-section .container .row {
+  justify-content: space-between;
+}
+.banner-section .container .row .main-box {
+  width: 49%;
+}
+.banner-section .container .row .main-box .box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 220px;
+}
+.banner-section .container .row .main-box .box .content {
+  padding: 0px 40px;
+  width: 50%;
+}
+.banner-section .container .row .main-box .box .content h3 {
+  font-size: 16px;
+  color: #c6c9c9;
+  padding: 5px 0px;
+}
+.banner-section .container .row .main-box .box .content h2 {
+  font-size: 26px;
+  font-weight: 700;
+  padding: 8px 0px;
+  color: white;
+}
+.banner-section .container .row .main-box .box .content a {
+  color: white;
+  font-weight: 700;
+  padding-top: 15px;
+  display: inline-block;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+.banner-section .container .row .main-box .box .content a:hover {
+  border-bottom: 2px solid white;
+}
+.banner-section .container .row .main-box .box .c-2 h3 {
+  font-size: 16px;
+  color: #767677;
+  padding: 5px 0px;
+}
+.banner-section .container .row .main-box .box .c-2 h2 {
+  font-size: 26px;
+  font-weight: 700;
+  padding: 8px 0px;
+  color: #333;
+}
+.banner-section .container .row .main-box .box .c-2 a {
+  color: white;
+  font-weight: 700;
+  padding-top: 15px;
+  display: inline-block;
+  color: #333338;
+  border-bottom: 2px solid rgba(51, 51, 56, 0);
+}
+.banner-section .container .row .main-box .box .c-2 a:hover {
+  border-bottom: 2px solid #333338;
+}/*# sourceMappingURL=popular.css.map */
