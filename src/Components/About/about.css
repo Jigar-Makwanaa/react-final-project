@@ -129,4 +129,20 @@
 }
 .category-section .container .row .all-cat .box .content .image .name h4 {
   text-align: center;
+}
+
+.popular-section {
+  padding: 40px 0px;
+}
+.popular-section .container .row .head h2 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: 900;
+}
+.popular-section .container .row .main-box .box {
+  width: 20%;
+}
+.popular-section .container .row .main-box .box .content .details .icon i {
+  color: #f77c29;
 }/*# sourceMappingURL=about.css.map */

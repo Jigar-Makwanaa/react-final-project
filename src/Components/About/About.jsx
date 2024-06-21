@@ -1,7 +1,38 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./about.css"
+import axios from 'axios'
 
 const About = () => {
+
+    const [record, setRecord] = useState('')
+    const [letestrec, setLetestrec] = useState('')
+
+    const allData = async () => {
+        try {
+            let { data } = await axios.get(`http://localhost:8000/product`)
+            setRecord(data)
+
+        } catch (err) {
+            console.log(err);
+            return false
+        }
+    }
+
+    useEffect(() => {
+        allData()
+
+        let letest = record && record.filter((val) => {
+            return val.market == "letest"
+        })
+
+        setLetestrec(letest)
+
+    }, [])
+
+    console.log(letestrec);
+
+
+
     return (
         <>
 
@@ -95,23 +126,56 @@ const About = () => {
                             <h2>Top Categories Of The Month</h2>
                         </div>
                         <div className="all-cat flex">
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="" alt="" />
-                                        <div className="name">
-                                            <h4>fashion</h4>
+                            {
+                                letestrec && letestrec.map((val) => {
+                                    return (
+                                        <div className="box">
+                                            <div className="content">
+                                                <div className="image">
+                                                    <img src={val.img} alt="" />
+                                                    <div className="name">
+                                                        <h4>{val.name}</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                 </div>
             </section>
 
             {/* top categories section end */}
+
+            {/* popular section start  */}
+            <section className='popular-section'>
+                <div className="container">
+                    <div className="row">
+                        <div className="head">
+                            <h2>Popular Departments</h2>
+                        </div>
+                        <div className="main-box">
+                            <div className="box">
+                                <div className="content">
+                                    <div className="image">
+                                        <img src="https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/3-1-2.jpg" alt="" />
+                                    </div>
+                                    <div className="details">
+                                        <h3>name</h3>
+                                        <div className="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span>$53.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* popular section end */}
 
         </>
     )
