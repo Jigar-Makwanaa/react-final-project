@@ -69,36 +69,36 @@ const Popular = () => {
       </section>
       {/* popular section end */}
 
-       {/* banner section start  */}
+      {/* banner section start  */}
 
-       <div className="banner-section">
-                <div className="container">
-                    <div className="row flex">
-                        <div className="main-box">
-                            <div className="box flex" style={{ backgroundImage: 'url("../img/3-1.jpg")' }}>
-                                <div className="content">
-                                    <h3>NATURAL PROCESS</h3>
-                                    <h2>Cosmetic Makeup
-                                    Professional</h2>
-                                    <a href="#">SHOP NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="main-box">
-                            <div className="box flex" style={{ backgroundImage: 'url("../img/3-2.jpg")' }}>
-                                <div className="content c-2">
-                                    <h3>TRENDING NOW</h3>
-                                    <h2>Women's Lifestyle
-                                    Collection</h2>
-                                    <a href="#">SHOP NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div className="banner-section">
+        <div className="container">
+          <div className="row flex">
+            <div className="main-box">
+              <div className="box flex" style={{ backgroundImage: 'url("../img/3-1.jpg")' }}>
+                <div className="content">
+                  <h3>NATURAL PROCESS</h3>
+                  <h2>Cosmetic Makeup
+                    Professional</h2>
+                  <a href="#">SHOP NOW</a>
                 </div>
+              </div>
             </div>
+            <div className="main-box">
+              <div className="box flex" style={{ backgroundImage: 'url("../img/3-2.jpg")' }}>
+                <div className="content c-2">
+                  <h3>TRENDING NOW</h3>
+                  <h2>Women's Lifestyle
+                    Collection</h2>
+                  <a href="#">SHOP NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            {/* banner section end */}
+      {/* banner section end */}
     </>
   )
 }

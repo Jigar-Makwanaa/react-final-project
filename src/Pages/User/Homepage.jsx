@@ -4,15 +4,17 @@ import Carousel from '../../Components/Home/Carousel'
 import About from '../../Components/Home/About'
 import TopCat from '../../Components/Home/TopCat'
 import Popular from '../../Components/Home/Popular'
+import Cloth from '../../Components/Home/Cloth'
 
 const Homepage = () => {
   return (
     <>
       <Header />
       <Carousel />
-      <About/>
-      <TopCat/>
-      <Popular/>
+      <About />
+      <TopCat />
+      <Popular />
+      <Cloth />
     </>
   )
 }
