@@ -1,0 +1,27 @@
+.cloth-section {
+  padding: 40px 0px;
+}
+.cloth-section .container .row .head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cloth-section .container .row .head h2 {
+  font-size: 20px;
+  color: #333;
+}
+.cloth-section .container .row .head .btn a {
+  color: #333;
+  font-size: 14px;
+}
+.cloth-section .container .row .head .btn a i {
+  padding-left: 10px;
+}
+.cloth-section .container .row .main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cloth-section .container .row .main .left-side {
+  width: 25%;
+  background-image: url("../../../public/img/2.jpg");
+}/*# sourceMappingURL=cloth.css.map */

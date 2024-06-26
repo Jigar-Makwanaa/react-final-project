@@ -1,4 +1,5 @@
 import React from 'react'
+import './cloth.css'
 
 const Cloth = () => {
     return (
@@ -8,7 +9,14 @@ const Cloth = () => {
             <section className='cloth-section'>
                 <div className="container">
                     <div className="row">
-                        <div className="left-side">
+                        <div className="head">
+                            <h2>Clothing & Apparel</h2>
+                            <div className="btn">
+                                <a href="#">More Products <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                       <div className="main">
+                       <div className="left-side">
                             <div className="content">
                                 <div className="image">
                                     <img src="" alt="" />
@@ -46,6 +54,7 @@ const Cloth = () => {
                                 </div>
                             </div>
                         </div>
+                       </div>
                     </div>
                 </div>
             </section>

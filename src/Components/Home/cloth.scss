@@ -1,25 +1,52 @@
 .cloth-section {
+    padding: 40px 0px;
     .container {
         .row {
-            .left-side {
-                .content {
-                    .image {
-                        img {
+            .head {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
 
+                h2 {
+                    font-size: 20px;
+                    color: #333;
+                }
+                .btn {
+                    a {
+                        color: #333;
+                        font-size: 14px;
+
+                        i {
+                            padding-left: 10px;
                         }
-                        .details {
-                            span {
-
+                    }
+                }
+            }
+            .main {
+                display: flex;
+                flex-wrap: wrap;
+                .left-side {
+                    width: 25%;
+                    background-image: url('../../../public/img/2.jpg');
+                    .content {
+                        .image {
+                            img {
+    
                             }
-                            h2 {
-
-                            }
-                            h3 {
-
-                            }
-                            .btn {
-                                a {
-
+                            .details {
+                                span {
+    
+                                }
+                                h2 {
+    
+                                }
+                                h3 {
+    
+                                }
+                                .btn {
+                                    a {
+    
+                                    }
                                 }
                             }
                         }
