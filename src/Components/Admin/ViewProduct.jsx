@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import "./admin.css"
+import axios from "axios";
 
 const ViewProduct = () => {
+
+  const [record, setRecord] = useState([])
+
+
+  const allData = async () => {
+    try {
+      let { data } = await axios.get(`http://localhost:8000/product`)
+      setRecord(data)
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+
+  useState(() => {
+    allData()
+  }, [])
+
   return (
     <>
       <Header />
-      
+
       <div className="page-header">
         <div className="container">
           <div className="row">
@@ -58,20 +77,29 @@ const ViewProduct = () => {
               </div>
               <div className="right-side">
                 <div className="product-view flex">
-                  <div className="box">
-                    <div className="main">
-                      <div className="image">
-                          <img src="https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/3-1-2.jpg" alt="" />
-                      </div>
-                      <div className="content">
-                        <h4>product name</h4>
-                        <div className="raiting">
-                          raiting
+                  {
+                    record.map((val) => {
+                      return (
+                        <div className="box">
+                          <div className="main">
+                            <div className="image">
+                              <img src={val.img} alt="" />
+                            </div>
+                            <div className="content">
+                              <h4>{val.name}</h4>
+                              <div className="raiting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </div>
+                              <span>{val.price}</span>
+                            </div>
+                          </div>
                         </div>
-                        <span>price</span>
-                      </div>
-                    </div>
-                  </div>
+                      )
+                    })
+                  }
                 </div>
               </div>
             </div>

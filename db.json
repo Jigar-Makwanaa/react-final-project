@@ -54,54 +54,6 @@
   
   "product": [
     {
-      "id": "3182",
-      "name": "t-shart",
-      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-1.jpg",
-      "price": "1199",
-      "market": "letest",
-      "category": "Fashion"
-    },
-    {
-      "id": "21bd",
-      "name": "sofa-set",
-      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-2.jpg",
-      "price": "9999",
-      "market": "letest",
-      "category": "furniture"
-    },
-    {
-      "id": "d728",
-      "name": "shoes",
-      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-3.jpg",
-      "price": "1199",
-      "market": "letest",
-      "category": "Fashion"
-    },
-    {
-      "id": "c880",
-      "name": "gym dumbbell",
-      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-4.jpg",
-      "price": "1599",
-      "market": "letest",
-      "category": "healthy & beauty"
-    },
-    {
-      "id": "b778",
-      "name": "game",
-      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-5.jpg",
-      "price": "899",
-      "market": "letest",
-      "category": "Electronics"
-    },
-    {
-      "id": "a406",
-      "name": "computers",
-      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-6.jpg",
-      "price": "12999",
-      "market": "letest",
-      "category": "Electronics"
-    },
-    {
       "id": "5815",
       "name": "Classic Hat",
       "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/3-1-2.jpg",
@@ -363,6 +315,54 @@
       "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/products/6-8-2.jpg",
       "price": "9999",
       "market": "Home Garden & Kitchen",
+      "category": "Electronics"
+    },
+    {
+      "id": "3182",
+      "name": "t-shart",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-1.jpg",
+      "price": "1199",
+      "market": "letest",
+      "category": "Fashion"
+    },
+    {
+      "id": "21bd",
+      "name": "sofa-set",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-2.jpg",
+      "price": "9999",
+      "market": "letest",
+      "category": "furniture"
+    },
+    {
+      "id": "d728",
+      "name": "shoes",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-3.jpg",
+      "price": "1199",
+      "market": "letest",
+      "category": "Fashion"
+    },
+    {
+      "id": "c880",
+      "name": "gym dumbbell",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-4.jpg",
+      "price": "1599",
+      "market": "letest",
+      "category": "healthy & beauty"
+    },
+    {
+      "id": "b778",
+      "name": "game",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-5.jpg",
+      "price": "899",
+      "market": "letest",
+      "category": "Electronics"
+    },
+    {
+      "id": "a406",
+      "name": "computers",
+      "img": "https://portotheme.com/html/wolmart/assets/images/demos/demo1/categories/2-6.jpg",
+      "price": "12999",
+      "market": "letest",
       "category": "Electronics"
     }
   ]

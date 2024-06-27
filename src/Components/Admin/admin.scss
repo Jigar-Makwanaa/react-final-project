@@ -326,6 +326,7 @@
               .main {
                 .image {
                   width: 100%;
+                  height: 278px;
                   overflow: hidden;
 
                   img {
@@ -341,7 +342,7 @@
 
                   h4 {
                     color: #333;
-                    font-size: 14px;
+                    font-size: 17px;
                     text-transform: capitalize;
                     transition: all 0.5s;
 
@@ -354,13 +355,15 @@
                     padding: 7px 0px;
 
                     i {
-                      font-size: 13px;
+                      font-size: 15px;
+                      padding: 0px 2px;
+                      color: #f77c29;
                     }
                   }
 
                   span {
                     display: block;
-                    font-size: 18px;
+                    font-size: 19px;
                     color: #333;
                     font-weight: 900;
 

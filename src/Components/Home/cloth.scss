@@ -6,6 +6,8 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                border-bottom: 1px solid #eee;
+                padding: 20px 0px;
 
                 h2 {
                     font-size: 20px;
@@ -25,9 +27,12 @@
             .main {
                 display: flex;
                 flex-wrap: wrap;
+                padding: 40px 0px;
                 .left-side {
                     width: 25%;
                     background-image: url('../../../public/img/2.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
                     .content {
                         .image {
                             img {
@@ -46,6 +51,73 @@
                                 .btn {
                                     a {
     
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right-side {
+                    width: 75%;
+                    padding-left: 30px;
+                    .main-box {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+        
+                        .box {
+                            width: 23%;
+                            margin-bottom: 10px;
+        
+                            .content {
+                                .image {
+                                    overflow: hidden;
+                                    img {
+                                        width: 100%;
+                                        transform: scale(1.2);
+                                        
+                                    }
+                                }
+        
+                                .details {
+                                    padding: 12px 0px;
+        
+                                    h3 {
+                                        text-align: center;
+                                        font-size: 17px;
+                                        text-transform: capitalize;
+                                    }
+        
+                                    .icon {
+                                        text-align: center;
+                                        padding: 10px 0px;
+        
+                                        i {
+                                            color: #f77c29;
+                                            padding: 0px 4px;
+                                        }
+                                    }
+        
+                                    span {
+                                        text-align: center;
+                                        font-weight: 900;
+                                        text-align: center;
+                                        display: block;
+                                    }
+                                }
+                            }
+        
+                            &:hover {
+                                .content {
+                                    .image {
+                                        img {
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    .details {
+                                        span {
+                                            color: #336699;
+                                        }
                                     }
                                 }
                             }
