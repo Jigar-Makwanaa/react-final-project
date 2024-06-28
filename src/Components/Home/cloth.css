@@ -30,6 +30,39 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.cloth-section .container .row .main .left-side .content {
+  padding: 35px;
+}
+.cloth-section .container .row .main .left-side .content .details span {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 3px solid #333;
+}
+.cloth-section .container .row .main .left-side .content .details h2 {
+  font-size: 35px;
+  font-weight: 900;
+  padding: 10px 0px;
+}
+.cloth-section .container .row .main .left-side .content .details h3 {
+  font-size: 25px;
+}
+.cloth-section .container .row .main .left-side .content .details .btn {
+  padding-top: 25px;
+}
+.cloth-section .container .row .main .left-side .content .details .btn a {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 3px solid #333;
+  transition: all 0.5s;
+  color: #333;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.cloth-section .container .row .main .left-side .content .details .btn:hover a {
+  background-color: #333;
+  color: white;
+}
 .cloth-section .container .row .main .right-side {
   width: 75%;
   padding-left: 30px;

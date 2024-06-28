@@ -1,4 +1,6 @@
-.cloth-section {
+// elec-section start  
+
+.kitchen-section {
     padding: 40px 0px;
 
     .container {
@@ -34,7 +36,7 @@
 
                 .left-side {
                     width: 25%;
-                    background-image: url('../../../public/img/2.jpg');
+                    background-image: url('../../../public/img/5.jpg');
                     background-size: cover;
                     background-repeat: no-repeat;
 
@@ -46,6 +48,7 @@
                                 display: inline-block;
                                 font-size: 20px;
                                 border-bottom: 3px solid #333;
+                                color: w#333
 
                             }
 
@@ -53,14 +56,17 @@
                                 font-size: 35px;
                                 font-weight: 900;
                                 padding: 10px 0px;
+                                color: #333;
                             }
 
                             h3 {
                                 font-size: 25px;
+                                color: #333;
                             }
 
                             .btn {
                                 padding-top: 25px;
+
                                 a {
                                     display: inline-block;
                                     padding: 10px 30px;
@@ -71,6 +77,7 @@
                                     font-weight: 600;
                                     border-radius: 5px;
                                 }
+
                                 &:hover {
                                     a {
                                         background-color: #333;
@@ -156,3 +163,89 @@
         }
     }
 }
+
+// elec-section end
+
+// banner section start 
+
+.banner-section {
+    padding: 0px;
+    .container {
+        .row {
+            .main {
+                background-image: url("../../../public/img/4.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 70px;
+                border-radius: 12px;
+                .content {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    .left-side {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        .off {
+                            span {
+                                display: inline-block;
+                                color: #f77c29 ;
+                                font-size: 90px;
+                                font-weight: 900;
+                                padding-right: 50px;
+                                border-right: 3px solid #666;
+                            }
+                        }
+
+                        .details {
+                            padding-left: 50px;
+                            h2 {
+                                color: white;
+                                font-size: 48px;
+                                font-weight: 900;
+                                padding-bottom: 15px;
+                            }
+                            h3 {
+                                color: white;
+                                font-size: 22px;
+                                span {
+                                    display: inline-block;
+                                    background-color: white;
+                                    color: #333;
+                                    padding: 5px 10px;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .right-side {
+                        .btn {
+                            a {
+                                display: inline-block;
+                                padding: 10px 30px;
+                                border: 3px solid white;
+                                transition: all 0.5s;
+                                color: white;
+                                font-size: 17px;
+                                font-weight: 600;
+                                border-radius: 5px;
+                                display: inline-block;
+                            }
+
+                            &:hover {
+                               a {
+                                background-color: white;
+                                color: #336699;
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// banner section end

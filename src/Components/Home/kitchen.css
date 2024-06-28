@@ -1,0 +1,180 @@
+.kitchen-section {
+  padding: 40px 0px;
+}
+.kitchen-section .container .row .head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0px;
+}
+.kitchen-section .container .row .head h2 {
+  font-size: 20px;
+  color: #333;
+}
+.kitchen-section .container .row .head .btn a {
+  color: #333;
+  font-size: 14px;
+}
+.kitchen-section .container .row .head .btn a i {
+  padding-left: 10px;
+}
+.kitchen-section .container .row .main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+}
+.kitchen-section .container .row .main .left-side {
+  width: 25%;
+  background-image: url("../../../public/img/5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchen-section .container .row .main .left-side .content {
+  padding: 35px;
+}
+.kitchen-section .container .row .main .left-side .content .details span {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 3px solid #333;
+  color: w #333;
+}
+.kitchen-section .container .row .main .left-side .content .details h2 {
+  font-size: 35px;
+  font-weight: 900;
+  padding: 10px 0px;
+  color: #333;
+}
+.kitchen-section .container .row .main .left-side .content .details h3 {
+  font-size: 25px;
+  color: #333;
+}
+.kitchen-section .container .row .main .left-side .content .details .btn {
+  padding-top: 25px;
+}
+.kitchen-section .container .row .main .left-side .content .details .btn a {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 3px solid #333;
+  transition: all 0.5s;
+  color: #333;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.kitchen-section .container .row .main .left-side .content .details .btn:hover a {
+  background-color: #333;
+  color: white;
+}
+.kitchen-section .container .row .main .right-side {
+  width: 75%;
+  padding-left: 30px;
+}
+.kitchen-section .container .row .main .right-side .main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.kitchen-section .container .row .main .right-side .main-box .box {
+  width: 23%;
+  margin-bottom: 10px;
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .image {
+  overflow: hidden;
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .image img {
+  width: 100%;
+  transform: scale(1.2);
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .details {
+  padding: 12px 0px;
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .details h3 {
+  text-align: center;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .details .icon {
+  text-align: center;
+  padding: 10px 0px;
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .details .icon i {
+  color: #f77c29;
+  padding: 0px 4px;
+}
+.kitchen-section .container .row .main .right-side .main-box .box .content .details span {
+  text-align: center;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+}
+.kitchen-section .container .row .main .right-side .main-box .box:hover .content .image img {
+  transform: scale(1.1);
+}
+.kitchen-section .container .row .main .right-side .main-box .box:hover .content .details span {
+  color: #336699;
+}
+
+.banner-section {
+  padding: 0px;
+}
+.banner-section .container .row .main {
+  background-image: url("../../../public/img/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px;
+  border-radius: 12px;
+}
+.banner-section .container .row .main .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-section .container .row .main .content .left-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.banner-section .container .row .main .content .left-side .off span {
+  display: inline-block;
+  color: #f77c29;
+  font-size: 90px;
+  font-weight: 900;
+  padding-right: 50px;
+  border-right: 3px solid #666;
+}
+.banner-section .container .row .main .content .left-side .details {
+  padding-left: 50px;
+}
+.banner-section .container .row .main .content .left-side .details h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+.banner-section .container .row .main .content .left-side .details h3 {
+  color: white;
+  font-size: 22px;
+}
+.banner-section .container .row .main .content .left-side .details h3 span {
+  display: inline-block;
+  background-color: white;
+  color: #333;
+  padding: 5px 10px;
+}
+.banner-section .container .row .main .content .right-side .btn a {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 3px solid white;
+  transition: all 0.5s;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+}
+.banner-section .container .row .main .content .right-side .btn:hover a {
+  background-color: white;
+  color: #336699;
+}/*# sourceMappingURL=kitchen.css.map */
